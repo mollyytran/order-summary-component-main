@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    min-height: 100vh;
+    position: relative;
+}
+
+.main-container{
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    border-radius: 20px;
+    overflow:hidden;
+    background-color: #FFFFFF;
+    box-shadow: 0 8px 16px rgba(41, 29, 29, 0.3);
+}
+
+.text-container{
+    text-align: center;
+    background-color: #FFF;
+    padding: 20px 48px;
+    font-size: 16px;
+}
+
+.os-header{
+    color: #1F2E55;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.description{
+    color: #717Fa6;
+    margin-bottom: 30px;
+
+}
+
+.ap-container{
+    background-color: #F7F9FF;
+    border-radius: 10px;
+    padding: 18px;
+    display: flex; 
+    align-items: center;
+}
+
+.icon-music{
+    padding: 5px;
+}
+
+.ap-section{
+    padding: 10px;
+}
+
+.ap-header{
+    font-weight: 900;
+    padding-bottom: 3px;
+    color: #1F2E55;
+}
+
+.ap-price{
+    color: #717Fa6;
+}
+
+.changebutton{
+    margin-left: auto;
+    color: #382AE1;
+    font-weight: 900;
+}
+
+.changebutton a:visited{
+    color: #382AE1;
+}
+   
+.changebutton a:hover{
+    text-decoration: none;
+    color: #766CF1;
+}
+
+.buttons a{
+    display: block;
+    margin: 30px 0;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.paymentbutton {
+    color: #FFFFFF;
+    background-color: #382AE1;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 15px 15px rgba(105, 141, 255, 0.2);
+}
+
+.paymentbutton:hover{
+    background-color: #766CF1;
+    color:#FFFFFF;
+}
+
+.cancelbutton {
+    color: #717Fa6;
+}
+
+.cancelbutton:hover{
+    color: #1F2E55;
+
+}
+
+@media only screen and (max-width: 428px){
+    body{
+        background-image: url(images/pattern-background-mobile.svg);
+    }
+
+    .main-container {
+        max-width: 85%;
+
+    }
+
+}
