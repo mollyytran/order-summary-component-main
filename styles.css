@@ -61,13 +61,13 @@ body{
     padding: 5px;
 }
 
-.ap-section{
+.plan-text{
     padding: 10px;
     text-align: left;
     display:block;
 }
 
-.annual-plan{
+.plan-head{
     font-weight: 900;
     padding-bottom: 3px;
     color: #1F2E55;
