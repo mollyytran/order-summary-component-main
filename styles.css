@@ -38,7 +38,7 @@ body{
     font-size: 1rem;
 }
 
-.os-header{
+.header{
     color: #1F2E55;
     font-weight: 900;
     font-size: 1.75rem;
@@ -46,11 +46,10 @@ body{
 
 .description{
     color: #717Fa6;
-    margin-bottom: 30px;
-
+    margin: 20px 30px;
 }
 
-.ap-container{
+.plan-container{
     background-color: #F7F9FF;
     border-radius: 10px;
     padding: 18px;
@@ -65,15 +64,16 @@ body{
 .ap-section{
     padding: 10px;
     text-align: left;
+    display:block;
 }
 
-.ap-header{
+.annual-plan{
     font-weight: 900;
     padding-bottom: 3px;
     color: #1F2E55;
 }
 
-.ap-price{
+.price{
     color: #717Fa6;
 }
 
@@ -131,7 +131,7 @@ body{
     
     }
 
-    img[src*=hero]{
+    .img-hero{
         max-width: 330px;
     }
     
@@ -139,7 +139,7 @@ body{
         padding: 15px 30px;
     }
 
-    .ap-container{
+    .plan-container{
         max-width: 330px;
         padding: 10px;
         font-size: .875rem;
